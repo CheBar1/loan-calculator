@@ -9,5 +9,5 @@ function calculateLoan() {
 
     monthlyPayment = (loanAmountValue / monthsToPayValue + interest).toFixed(2);
 
-    document.getElementById("payment").innerHTML = `Monthly Payment: ${monthlyPayment}`;
+    document.getElementById("payment").innerHTML = `Monthly Payment: $ ${monthlyPayment}`;
 }
